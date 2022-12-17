@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 const Profile = () => {
   const auth = getAuth();
-  console.log(auth);
+  // console.log(auth);
   const [formData, setFormData] = useState({
     name: auth.currentUser.displayName,
     email: auth.currentUser.email,
